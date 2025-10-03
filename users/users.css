@@ -1,0 +1,21 @@
+
+h1{
+    text-align: center;
+}
+
+.user {
+    border: 2px solid greenyellow;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+
+}
+
+#users {
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}

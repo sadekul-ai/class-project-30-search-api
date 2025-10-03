@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Search Meal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navber">
+      <h2><a href="./index.html">Website</a></h2>
+      <ul class="manu">
+        <li><a href="./users/users.html">Users</a></li>
+        <li><a href="./country/country.html">Country</a></li>
+      </ul>
+    </nav>
+
+  <h2 style="text-align:center;">Search Your Favorite Meal</h2>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search food...">
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div id="results"></div>
+
+  <!-- Modal -->
+  <div id="mealModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <div id="mealDetails"></div>
+    </div>
+  </div>
+
+  <script src="./fish/fish.js"></script>
+</body>
+</html>
